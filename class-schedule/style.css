@@ -1,0 +1,127 @@
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  margin: 5px 0 15px;
+  font-size: 1rem;
+}
+
+/* Logo */
+header .logo {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+  border-radius: 10%;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  background-color: #003366;
+  color: white;
+  text-decoration: none;
+  padding: 12px 25px;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0055aa;
+}
+
+/* Main Content */
+main {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Section Headings */
+h2 {
+  color: #003366;
+  margin-top: 1.5rem;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #003366;
+}
+
+th {
+  background-color: #cce0ff;
+  font-weight: bold;
+}
+
+tfoot td {
+  font-weight: bold;
+  background-color: #e6f0ff;
+}
+
+/* Scrollable table container for mobile */
+.table-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  border-top: 3px solid #0055aa;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  main {
+    padding: 1rem;
+  }
+
+  table, th, td {
+    font-size: 0.85rem;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+}
